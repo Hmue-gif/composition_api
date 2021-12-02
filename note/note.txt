@@ -16,5 +16,14 @@ set up(){
 ref (reactivity = dynamic pyit tk value)
 
 import {ref} from '@vue/reactivity'
-eg => let name = ref('name')
-retrurn { {name} }
+eg => let nameObj = ref('name')
+      nameObj.value.name='changeName' (need value)
+
+      retrurn { {nameObj.name} }
+----------------------------------------
+Reacitve => object/array dok ko pl thone lox ya
+
+eg => let nameObj = reactive({name:'name' , age:20})
+      nameObj.name='changeName' (no need value)
+
+      retrurn { {nameObj.age} }
