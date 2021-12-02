@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link :to="{name:'Reactive'}">Refs and Reactive</router-link>
+    <router-link :to="{name:'Reactive'}">Refs and Reactive</router-link> |
+    <router-link :to="{name:'Computed'}">Computed</router-link> 
   </div>
   <router-view/>
 </template>

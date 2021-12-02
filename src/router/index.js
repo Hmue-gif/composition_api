@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Reactive from '../views/Reactive.vue'
+import Computed from '../views/Computed.vue'
+
 
 const routes = [
   {
@@ -12,6 +14,11 @@ const routes = [
     path: '/reactive',
     name: 'Reactive',
     component: Reactive
+  },
+  {
+    path: '/computed',
+    name: 'Computed',
+    component: Computed
   }
 ]
 

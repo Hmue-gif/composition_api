@@ -27,3 +27,22 @@ eg => let nameObj = reactive({name:'name' , age:20})
       nameObj.name='changeName' (no need value)
 
       retrurn { {nameObj.age} }
+-----------------------------------------------------
+computed properties in composition
+
+import lote pay ya ml
+let compute =computed(()=>{
+    return => pyan pay ya ml => retrun pyn tk value ka compute htl ko win twr ml
+})
+
+return[compute]
+
+search box format => 
+let search = (v-model mhr user yite ht mk value)
+let names = ref([]) //array
+
+let searchNames = computed(()=>{
+    retrun names.value.filter(name=>{
+        retrun name.includes(search.value)  // main key
+    })
+})
