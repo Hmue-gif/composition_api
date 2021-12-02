@@ -1,0 +1,20 @@
+composition api
+----------------
+vue3 mhr pr lr tk new features
+
+purpose => code twe ko matain pyn lote tk akr complextiy ma pyit ag lox
+
+set up(){
+    method 
+    function
+    data
+    computed
+    life cycle hook
+}
+
+------------------------------
+ref (reactivity = dynamic pyit tk value)
+
+import {ref} from '@vue/reactivity'
+eg => let name = ref('name')
+retrurn { {name} }
