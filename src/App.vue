@@ -4,7 +4,6 @@
     <router-link :to="{name:'Reactive'}">Refs and Reactive</router-link> |
     <router-link :to="{name:'Computed'}">Search Box</router-link> |
     <router-link :to="{name:'Props'}">Props</router-link> 
-
   </div>
   <router-view/>
 </template>

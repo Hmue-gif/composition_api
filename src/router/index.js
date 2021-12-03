@@ -4,7 +4,6 @@ import Reactive from '../views/Reactive.vue'
 import Computed from '../views/Computed.vue'
 import Props from '../views/Props.vue'
 
-
 const routes = [
   {
     path: '/',

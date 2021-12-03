@@ -1,7 +1,7 @@
-<template>
+<template>  
       <h3> {{post.title}} </h3>
       <h4> {{cutString}} </h4>
-</template>
+</template>     
 
 <script>
 import { computed } from '@vue/reactivity'
